@@ -27,7 +27,6 @@ jobs:
       run: |
         python ./a.py
 
-    - name: artifact
     - run: echo hi > world.txt
     - uses: actions/upload-artifact@v2
       with:
