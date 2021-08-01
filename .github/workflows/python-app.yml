@@ -26,9 +26,11 @@ jobs:
         python -m pip install --upgrade pip
     - name: Test with pytest
       run: |
-        python ./a.py
+        python ./a.py > a.md
 
-    - run: echo hi > world.txt
-    - uses: actions/upload-artifact@v2
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      if: ${{ github.ref == 'refs/heads/main' }}
       with:
-        path: world.txt
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./doc
