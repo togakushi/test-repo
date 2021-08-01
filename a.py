@@ -1,3 +1,13 @@
 #!/usr/env python
 
-print('aaa')
+md = '''
+## test page
+
+| a   | b   | c   |
+| --- | --- | --- |
+| a   | b   | c   |
+| a   | b   | c   |
+| a   | b   | c   |
+
+'''
+print(md)
