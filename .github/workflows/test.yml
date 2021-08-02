@@ -37,5 +37,6 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./
-        publish_branch: report
+        publish_branch: main
+        #publish_branch: report
         
