@@ -17,6 +17,6 @@ jobs:
       run: |
         for i in 1 2 3 4 5
         do
-          echo ${i}
+          seq -f 'user_%03g' ${i}
         done
 
