@@ -11,6 +11,7 @@ tabele
    :header-row: 1
    :file: text.csv
 
+.. include:: text.csv
 
 .. csv-table:: Frozen Delights!
    :header: "Treat", "Quantity", "Description"
