@@ -7,7 +7,7 @@ This is test page.
 tabele
 ------
 
-.. csv-table:: Frozen Delights!
+.. csv-table:: Frozen Delights!!!!
    :header-row: 1
    :file: text.csv
 
