@@ -9,9 +9,9 @@ tabele
 
 .. csv-table:: Frozen Delights!!!!
    :header-row: 1
-   :file: text.csv
+   :file: ./text.csv
 
-.. include:: text.csv
+.. include:: ./text.csv
 
 .. csv-table:: Frozen Delights!
    :header: "Treat", "Quantity", "Description"
