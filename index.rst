@@ -8,7 +8,7 @@ tabele
 ------
 
 .. csv-table:: Frozen Delights!!!!
-   :header-row: 1
+   :header-rows: 1
    :file: ./text.csv
 
 .. include:: ./text.csv
