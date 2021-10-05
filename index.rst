@@ -9,7 +9,7 @@ tabele
 
 .. csv-table:: Frozen Delights!
    :header-row: 1
-   :file: test.csv
+   :file: text.csv
 
 
 .. csv-table:: Frozen Delights!
