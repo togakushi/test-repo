@@ -8,7 +8,7 @@ flowchart TD
 
     MOD -->|ラベル追加| INSERT --> END
     MOD -->|ラベル削除| DELETE --> END
-    MOD -->|修正| UPDATE --> END
+    MOD -->|内容修正| UPDATE --> END
 
     START([start])
     INSERT[(insert)]
