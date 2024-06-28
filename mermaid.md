@@ -16,3 +16,14 @@ flowchart TD
     DELETE[(delete)]
     END([end])
 ```
+
+
+# 折り畳み
+<details>
+<summary>Click to expand!</summary>
+ここが折りたたまれる
+
+# xxx
+
+## zzz
+</details>
