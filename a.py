@@ -16,7 +16,7 @@ for idx1 in range(len(df)):
                 if p1.name == p2.name:
                         continue
                 df2[p2.name][p1.name] = (p1 < p2).sum()
-                #df3[p2.name][p1.name] = p1.count()
+                df3[p2.name][p1.name] = len(pd.concat([p1,p2], axis=1).dropna())
 
 
 print("-" * 20)
